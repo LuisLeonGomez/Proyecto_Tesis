@@ -1,0 +1,239 @@
+[02-Mar-2022 03:30:46 Europe/Berlin] PHP Warning:  Undefined array key "nuevoStock" in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 28
+[02-Mar-2022 03:41:09 Europe/Berlin] PHP Warning:  Undefined array key "nuevaFoto" in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 38
+[02-Mar-2022 03:41:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 38
+[02-Mar-2022 20:18:57 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 1' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 20:32:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 2' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 20:36:58 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 2' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 20:37:19 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 2' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 20:42:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 1' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 20:48:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 1' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 20:48:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 1' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 20:58:54 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 20:59:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 2' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 20:59:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 2' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 21:10:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 2' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 21:16:14 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE nombre = 'Ximena'' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(111): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 21:16:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE nombre = 'Eduardo'' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(111): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 21:17:10 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 1' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[02-Mar-2022 21:17:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 2' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[04-Mar-2022 20:35:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 24' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[04-Mar-2022 22:48:51 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 2' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[04-Mar-2022 22:49:44 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id = 2' at line 1 in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php:79
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\proyecto_tesis\controladores\clientes.controlador.php(106): ModeloClientes::mdlEditarCliente('clientes', Array)
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\clientes.php(333): ControladorClientes::ctrEditarCliente()
+#3 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\modelos\clientes.modelo.php on line 79
+[04-Mar-2022 23:06:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "ModeloProveedors" not found in C:\xampp\htdocs\proyecto_tesis\controladores\proveedor.controlador.php:172
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\proveedor.php(378): ControladorProveedor::ctrEliminarProveedor()
+#1 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\controladores\proveedor.controlador.php on line 172
+[04-Mar-2022 23:06:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "ModeloProveedors" not found in C:\xampp\htdocs\proyecto_tesis\controladores\proveedor.controlador.php:172
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\proveedor.php(378): ControladorProveedor::ctrEliminarProveedor()
+#1 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\controladores\proveedor.controlador.php on line 172
+[13-Mar-2022 21:23:04 Europe/Berlin] PHP Warning:  Undefined array key "nuevaFoto" in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 38
+[13-Mar-2022 21:23:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 38
+[13-Mar-2022 21:27:20 Europe/Berlin] PHP Warning:  Undefined array key "nuevaFoto" in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 38
+[13-Mar-2022 21:27:20 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 38
+[13-Mar-2022 21:27:29 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x89 0x50 in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 222
+[13-Mar-2022 21:27:29 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): &quot;C:\xampp\tmp\php1F5E.tmp&quot; is not a valid JPEG file in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 222
+[13-Mar-2022 21:27:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php:226
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php(226): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 1500, 1500)
+#1 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\productos.php(525): ControladorProductos::ctrEditarProducto()
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 226
+[13-Mar-2022 21:27:46 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 204
+[13-Mar-2022 21:27:46 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x89 0x50 in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 222
+[13-Mar-2022 21:27:46 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): &quot;C:\xampp\tmp\php6263.tmp&quot; is not a valid JPEG file in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 222
+[13-Mar-2022 21:27:46 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php:226
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php(226): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 1500, 1500)
+#1 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\productos.php(525): ControladorProductos::ctrEditarProducto()
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 226
+[13-Mar-2022 21:27:51 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 204
+[13-Mar-2022 21:27:51 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x89 0x50 in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 222
+[13-Mar-2022 21:27:51 Europe/Berlin] PHP Warning:  imagecreatefromjpeg(): &quot;C:\xampp\tmp\php73AA.tmp&quot; is not a valid JPEG file in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 222
+[13-Mar-2022 21:27:51 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: imagecopyresized(): Argument #2 ($src_image) must be of type GdImage, bool given in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php:226
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php(226): imagecopyresized(Object(GdImage), false, 0, 0, 0, 0, 500, 500, 1500, 1500)
+#1 C:\xampp\htdocs\proyecto_tesis\vistas\modulos\productos.php(525): ControladorProductos::ctrEditarProducto()
+#2 C:\xampp\htdocs\proyecto_tesis\vistas\plantilla.php(151): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\proyecto_tesis\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_tesis\index.php(27): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 226
+[13-Mar-2022 21:34:52 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\proyecto_tesis\controladores\productos.controlador.php on line 204
