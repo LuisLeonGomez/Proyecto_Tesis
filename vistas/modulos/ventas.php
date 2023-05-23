@@ -12,6 +12,16 @@ if($_SESSION["perfil"] == "Especial"){
 
 }
 
+$xml = ControladorVentas::ctrDescargarXML();
+
+if($xml){
+
+  rename($_GET["xml"].".xml", "xml/".$_GET["xml"].".xml");
+
+  echo '<a class="btn btn-block btn-success abrirXML" archivo="xml/'.$_GET["xml"].'.xml" href="ventas">Se ha creado correctamente el archivo XML <span class="fa fa-times pull-right"></span></a>';
+
+}
+
 ?>
 <div class="content-wrapper">
 
@@ -139,9 +149,9 @@ if($_SESSION["perfil"] == "Especial"){
 
                   <td>'.$value["metodo_pago"].'</td>
 
-                  <td>$ '.number_format($value["neto"]).'</td>
+                  <td>$ '.number_format($value["neto"],2).'</td>
 
-                  <td>$ '.number_format($value["total"]).'</td>
+                  <td>$ '.number_format($value["total"],2).'</td>
 
                   <td>'.$value["fecha"].'</td>
 
@@ -149,7 +159,7 @@ if($_SESSION["perfil"] == "Especial"){
 
                     <div class="btn-group">
 
-                      
+                      <a class="btn btn-success" href="index.php?ruta=ventas&xml='.$value["codigo"].'">xml</a>
                         
                       <button class="btn btn-info btnImprimirFactura" codigoVenta="'.$value["codigo"].'">
 
@@ -159,10 +169,9 @@ if($_SESSION["perfil"] == "Especial"){
 
                       if($_SESSION["perfil"] == "Administrador"){
 
-                      echo 
-                      //'<button class="btn btn-warning btnEditarVenta" idVenta="'.$value["id"].'"><i class="fa fa-pencil"></i></button>
+                      echo '<button class="btn btn-warning btnEditarVenta" idVenta="'.$value["id"].'"><i class="fa fa-pencil"></i></button>
 
-                      '<button class="btn btn-danger btnEliminarVenta" idVenta="'.$value["id"].'"><i class="fa fa-times"></i></button>';
+                      <button class="btn btn-danger btnEliminarVenta" idVenta="'.$value["id"].'"><i class="fa fa-times"></i></button>';
 
                     }
 

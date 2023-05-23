@@ -702,9 +702,6 @@
 .fa-users:before {
   content: "\f0c0";
 }
-.fa-prov:before {
-  content: "\f0c0";
-}
 .fa-chain:before,
 .fa-link:before {
   content: "\f0c1";

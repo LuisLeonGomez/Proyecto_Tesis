@@ -148,22 +148,6 @@ $(".porcentaje").on("ifChecked",function(){
 
 })
 
-
-//Aqui lo agregué para el stock
-$(".stock").on("ifUnchecked",function(){
-
-	$("#nuevoStock").prop("readonly",false);
-	$("#editarStock").prop("readonly",false);
-
-})
-
-$(".stock").on("ifChecked",function(){
-
-	$("#nuevoStock").prop("readonly",true);
-	$("#editarStock").prop("readonly",true);
-
-})
-
 /*=============================================
 SUBIENDO LA FOTO DEL PRODUCTO
 =============================================*/
@@ -306,39 +290,6 @@ $(".tablaProductos tbody").on("click", "button.btnEliminarProducto", function(){
 
         	window.location = "index.php?ruta=productos&idProducto="+idProducto+"&imagen="+imagen+"&codigo="+codigo;
 
-        }
-
-
-	})
-
-})
-
-/*=============================================
-Control Stock
-=============================================*/
-$(".tablaProductos tbody").on("click", "button.btnStockBajo", function(){
-
-	var idProducto = $(this).attr("idProducto");
-	var codigo = $(this).attr("codigo");
-	var imagen = $(this).attr("imagen");
-	var stock = $(this).attr("stock");
-	
-	swal({
-
-		title: 'El Stock Esta Bajo',
-		text: "¿Ir a proveedor?",
-		type: 'warning',
-        showCancelButton: true,
-        confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
-        cancelButtonText: 'Cancelar',
-        confirmButtonText: 'Si, ir a proveedor!'
-        }).then(function(result) {
-        if (result.value) {
-
-        	//window.location = "index.php?ruta=proveedor&idProveedor="+idProducto+"&imagen="+imagen+"&codigo="+codigo;
-
-			window.location = "index.php?ruta=proveedor";
         }
 
 

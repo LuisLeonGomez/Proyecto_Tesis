@@ -20,7 +20,7 @@ if($_SESSION["perfil"] == "Vendedor"){
     
     <h1>
       
-      Administrar Servicios
+      Administrar categorías
     
     </h1>
 
@@ -28,7 +28,7 @@ if($_SESSION["perfil"] == "Vendedor"){
       
       <li><a href="inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
       
-      <li class="active">Administrar Servicios</li>
+      <li class="active">Administrar categorías</li>
     
     </ol>
 
@@ -42,7 +42,7 @@ if($_SESSION["perfil"] == "Vendedor"){
   
         <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarCategoria">
           
-          Agregar Servicio
+          Agregar categoría
 
         </button>
 
@@ -57,7 +57,7 @@ if($_SESSION["perfil"] == "Vendedor"){
          <tr>
            
            <th style="width:10px">#</th>
-           <th>Servicio</th>
+           <th>Categoria</th>
            <th>Acciones</th>
 
          </tr> 
@@ -134,7 +134,7 @@ MODAL AGREGAR CATEGORÍA
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-          <h4 class="modal-title">Agregar Servicio</h4>
+          <h4 class="modal-title">Agregar categoría</h4>
 
         </div>
 
@@ -154,7 +154,7 @@ MODAL AGREGAR CATEGORÍA
               
                 <span class="input-group-addon"><i class="fa fa-th"></i></span> 
 
-                <input type="text" class="form-control input-lg" name="nuevaCategoria" placeholder="Ingresar Servicio" required>
+                <input type="text" class="form-control input-lg" name="nuevaCategoria" placeholder="Ingresar categoría" required>
 
               </div>
 
@@ -172,7 +172,7 @@ MODAL AGREGAR CATEGORÍA
 
           <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
 
-          <button type="submit" class="btn btn-primary">Guardar Servicio</button>
+          <button type="submit" class="btn btn-primary">Guardar categoría</button>
 
         </div>
 

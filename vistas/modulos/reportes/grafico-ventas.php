@@ -50,8 +50,7 @@ GRÁFICO DE VENTAS
 ======================================-->
 
 
-<!--<div class="box box-solid bg-teal-gradient">-->
-  <div class="box box-solid bg-teal-gradient" >
+<div class="box box-solid bg-teal-gradient">
 	
 	<div class="box-header">
 		

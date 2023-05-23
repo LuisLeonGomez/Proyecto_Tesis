@@ -4,13 +4,13 @@
   
   <div class="login-logo">
 
-    <img src="vistas/img/plantilla/logo_blanco_bloque.png" class="img-responsive" style="padding:30px 50px 0px 50px">
+    <img src="vistas/img/plantilla/logo-blanco-bloque.png" class="img-responsive" style="padding:30px 100px 0px 100px">
 
   </div>
 
   <div class="login-box-body">
 
-    <p class="login-box-msg">Bienvenida</p>
+    <p class="login-box-msg">Ingresar al sistema</p>
 
     <form method="post">
 
@@ -28,9 +28,9 @@
       
       </div>
 
-      <div class="row justify-content-md-center">
+      <div class="row">
        
-        <div class="col-xs-12">
+        <div class="col-xs-4">
 
           <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button>
         

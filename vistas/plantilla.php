@@ -16,7 +16,7 @@ session_start();
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-  <link rel="icon" href="vistas/img/plantilla/icono_negro.jpg">
+  <link rel="icon" href="vistas/img/plantilla/icono-negro.png">
 
    <!--=====================================
   PLUGINS DE CSS
@@ -110,7 +110,7 @@ session_start();
 CUERPO DOCUMENTO
 ======================================-->
 
-<body class="hold-transition skin-green sidebar-collapse sidebar-mini login-page">
+<body class="hold-transition skin-blue sidebar-collapse sidebar-mini login-page">
  
   <?php
 
@@ -141,7 +141,6 @@ CUERPO DOCUMENTO
          $_GET["ruta"] == "categorias" ||
          $_GET["ruta"] == "productos" ||
          $_GET["ruta"] == "clientes" ||
-         $_GET["ruta"] == "proveedor" ||
          $_GET["ruta"] == "ventas" ||
          $_GET["ruta"] == "crear-venta" ||
          $_GET["ruta"] == "editar-venta" ||
@@ -184,7 +183,6 @@ CUERPO DOCUMENTO
 <script src="vistas/js/categorias.js"></script>
 <script src="vistas/js/productos.js"></script>
 <script src="vistas/js/clientes.js"></script>
-<script src="vistas/js/proveedor.js"></script>
 <script src="vistas/js/ventas.js"></script>
 <script src="vistas/js/reportes.js"></script>
 

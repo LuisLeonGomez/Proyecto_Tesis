@@ -27,7 +27,6 @@ class ControladorVentas{
 
 	static public function ctrCrearVenta(){
 
-			
 		if(isset($_POST["nuevaVenta"])){
 
 			/*=============================================
@@ -100,7 +99,7 @@ class ControladorVentas{
 
 			$item1b = "ultima_compra";
 
-			date_default_timezone_set('America/Santiago');
+			date_default_timezone_set('America/Bogota');
 
 			$fecha = date('Y-m-d');
 			$hora = date('H:i:s');
@@ -126,9 +125,6 @@ class ControladorVentas{
 			$respuesta = ModeloVentas::mdlIngresarVenta($tabla, $datos);
 
 			if($respuesta == "ok"){
-
-				if(isset($_POST["impresion"])){
-
 
 				// $impresora = "epson20";
 
@@ -156,7 +152,7 @@ class ControladorVentas{
 
 				$printer -> text("Inventory System"."\n");//Nombre de la empresa
 
-				//$printer -> text("NIT: 71.759.963-9"."\n");//Nit de la empresa
+				$printer -> text("NIT: 71.759.963-9"."\n");//Nit de la empresa
 
 				$printer -> text("Dirección: Calle 44B 92-11"."\n");//Dirección de la empresa
 
@@ -186,19 +182,19 @@ class ControladorVentas{
 
 					$printer->setJustification(Printer::JUSTIFY_RIGHT);
 
-					$printer->text("$ ".number_format($value["precio"])." Und x ".$value["cantidad"]." = $ ".number_format($value["total"])."\n");
+					$printer->text("$ ".number_format($value["precio"],2)." Und x ".$value["cantidad"]." = $ ".number_format($value["total"],2)."\n");
 
 				}
 
 				$printer -> feed(1); //Alimentamos el papel 1 vez*/			
 				
-				$printer->text("NETO: $ ".number_format($_POST["nuevoPrecioNeto"])."\n"); //ahora va el neto
+				$printer->text("NETO: $ ".number_format($_POST["nuevoPrecioNeto"],2)."\n"); //ahora va el neto
 
-				$printer->text("IMPUESTO: $ ".number_format($_POST["nuevoPrecioImpuesto"])."\n"); //ahora va el impuesto
+				$printer->text("IMPUESTO: $ ".number_format($_POST["nuevoPrecioImpuesto"],2)."\n"); //ahora va el impuesto
 
 				$printer->text("--------\n");
 
-				$printer->text("TOTAL: $ ".number_format($_POST["totalVenta"])."\n"); //ahora va el total
+				$printer->text("TOTAL: $ ".number_format($_POST["totalVenta"],2)."\n"); //ahora va el total
 
 				$printer -> feed(1); //Alimentamos el papel 1 vez*/	
 
@@ -211,7 +207,7 @@ class ControladorVentas{
 				$printer -> pulse(); //Por medio de la impresora mandamos un pulso, es útil cuando hay cajón moneder
 
 				$printer -> close();
-			}
+
 	
 				echo'<script>
 
@@ -654,9 +650,9 @@ class ControladorVentas{
 		 		}
 
 		 		echo utf8_decode("</td>
-					<td style='border:1px solid #eee;'>$ ".number_format($item["impuesto"])."</td>
-					<td style='border:1px solid #eee;'>$ ".number_format($item["neto"])."</td>	
-					<td style='border:1px solid #eee;'>$ ".number_format($item["total"])."</td>
+					<td style='border:1px solid #eee;'>$ ".number_format($item["impuesto"],2)."</td>
+					<td style='border:1px solid #eee;'>$ ".number_format($item["neto"],2)."</td>	
+					<td style='border:1px solid #eee;'>$ ".number_format($item["total"],2)."</td>
 					<td style='border:1px solid #eee;'>".$item["metodo_pago"]."</td>
 					<td style='border:1px solid #eee;'>".substr($item["fecha"],0,10)."</td>		
 		 			</tr>");
@@ -676,7 +672,7 @@ class ControladorVentas{
 	SUMA TOTAL VENTAS
 	=============================================*/
 
-	static public function ctrSumaTotalVentas(){
+	public function ctrSumaTotalVentas(){
 
 		$tabla = "ventas";
 

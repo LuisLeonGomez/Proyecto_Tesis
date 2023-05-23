@@ -39,7 +39,7 @@
 				<a href="categorias">
 
 					<i class="fa fa-th"></i>
-					<span>Servicios</span>
+					<span>Categorías</span>
 
 				</a>
 
@@ -66,18 +66,6 @@
 
 					<i class="fa fa-users"></i>
 					<span>Clientes</span>
-
-				</a>
-
-			</li>
-			
-			
-			<li>
-
-				<a href="proveedor">
-
-					<i class="fa fa-user"></i>
-					<span>Proveedor</span>
 
 				</a>
 

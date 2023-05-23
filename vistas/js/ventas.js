@@ -346,7 +346,7 @@ $(".btnAgregarProducto").click(function(){
 
 	        // PONER FORMATO AL PRECIO DE LOS PRODUCTOS
 
-	        $(".nuevoPrecioProducto").number(true);
+	        $(".nuevoPrecioProducto").number(true, 2);
 
 
       	}
