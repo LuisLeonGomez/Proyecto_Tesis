@@ -188,7 +188,7 @@ if ($_SESSION["perfil"] == "Especial") {
                       <tbody>
 
                         <tr>
-
+                          
                           <td style="width: 50%">
 
                             <div class="input-group">
@@ -202,7 +202,6 @@ if ($_SESSION["perfil"] == "Especial") {
                               <span class="input-group-addon"><i class="fa fa-percent"></i></span>
 
                             </div>
-
                           </td>
 
                           <td style="width: 50%">

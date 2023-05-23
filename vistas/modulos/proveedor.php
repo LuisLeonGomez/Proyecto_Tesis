@@ -61,8 +61,7 @@ if($_SESSION["perfil"] == "Especial"){
            <th>Email</th>
            <th>Teléfono</th>
            <th>Página Web</th>
-           <th>Total compras</th>
-           <th>Última compra</th>
+           <th>Comentarios</th>
            <th>Acciones</th>
 
          </tr> 
@@ -93,11 +92,7 @@ if($_SESSION["perfil"] == "Especial"){
                     
                     <td>'.$value["pag_web"].'</td>
 
-                    <td>'.$value["compras_prov"].'</td>
-
-                    <td>'.$value["ultima_compra_prov"].'</td>
-
-                    <td>'.$value["fecha"].'</td>
+                    <td>'.$value["comentario"].'</td>
 
                     <td>
 
@@ -221,6 +216,20 @@ MODAL AGREGAR Proveedor
 
             </div>
 
+            <!-- ENTRADA PARA EL COMENTARIO -->
+            
+            <div class="form-group">
+              
+              <div class="input-group">
+              
+                <span class="input-group-addon"><i class="fa fa-code"></i></span> 
+
+                <input type="text" class="form-control input-lg" name="nuevoComentario" placeholder="Puede ingresar un comentario">
+
+              </div>
+
+            </div>
+
           </div>
 
         </div>
@@ -339,6 +348,21 @@ MODAL EDITAR Proveedor
               </div>
 
             </div>
+
+            <!-- ENTRADA PARA EL COMENTARIO -->
+            
+            <div class="form-group">
+              
+              <div class="input-group">
+              
+                <span class="input-group-addon"><i class="fa fa-code"></i></span> 
+
+                <input type="text" class="form-control input-lg" name="editarComentario" id="editarComentario">
+
+              </div>
+
+            </div>
+
           </div>
 
         </div>
