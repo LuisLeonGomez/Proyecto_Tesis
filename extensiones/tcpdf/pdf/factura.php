@@ -70,10 +70,10 @@ $bloque1 = <<<EOF
 				<div style="font-size:8.5px; text-align:right; line-height:15px;">
 					
 					<br>
-					NIT: 71.759.963-9
+					RUT: 71.759.963-9
 
 					<br>
-					Dirección: Calle 44B 92-11
+					Dirección: Getsemani Oriente #0296
 
 				</div>
 
@@ -84,10 +84,10 @@ $bloque1 = <<<EOF
 				<div style="font-size:8.5px; text-align:right; line-height:15px;">
 					
 					<br>
-					Teléfono: 300 786 52 49
+					Teléfono: +569 9674 3957
 					
 					<br>
-					ventas@inventorysystem.com
+					Lucilagomeztarazona@gmail.com
 
 				</div>
 				

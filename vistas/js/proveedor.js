@@ -24,6 +24,7 @@ $(".tablas").on("click", ".btnEditarProveedor", function(){
 	       $("#editarEmail").val(respuesta["email_prov"]);
 	       $("#editarTelefono").val(respuesta["telefono"]);
          $("#editarPagWeb").val(respuesta["pag_web"]);
+         $("#editarComentario").val(respuesta["comentario"]);
 	  }
 
   	})

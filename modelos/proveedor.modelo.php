@@ -10,12 +10,13 @@ class ModeloProveedor{
 
 	static public function mdlIngresarProveedor($tabla, $datos){
 
-		$stmt = Conexion::conectar()->prepare("INSERT INTO $tabla(nombre_prov, email_prov, telefono, pag_web) VALUES (:nombre_prov, :email_prov, :telefono, :pag_web)");
+		$stmt = Conexion::conectar()->prepare("INSERT INTO $tabla(nombre_prov, email_prov, telefono, pag_web, comentario) VALUES (:nombre_prov, :email_prov, :telefono, :pag_web, :comentario)");
 
 		$stmt->bindParam(":nombre_prov", $datos["nombre_prov"], PDO::PARAM_STR);
 		$stmt->bindParam(":email_prov", $datos["email_prov"], PDO::PARAM_STR);
 		$stmt->bindParam(":telefono", $datos["telefono"], PDO::PARAM_STR);
 		$stmt->bindParam(":pag_web", $datos["pag_web"], PDO::PARAM_STR);
+		$stmt->bindParam(":comentario", $datos["comentario"], PDO::PARAM_STR);
 
 		if($stmt->execute()){
 
@@ -70,13 +71,14 @@ class ModeloProveedor{
 
 	static public function mdlEditarProveedor($tabla, $datos){
 
-		$stmt = Conexion::conectar()->prepare("UPDATE $tabla SET nombre_prov = :nombre_prov, email_prov = :email_prov, telefono = :telefono, pag_web = :pag_web WHERE id = :id");
+		$stmt = Conexion::conectar()->prepare("UPDATE $tabla SET nombre_prov = :nombre_prov, email_prov = :email_prov, telefono = :telefono, pag_web = :pag_web, comentario = :comentario WHERE id = :id");
 
 		$stmt->bindParam(":id", $datos["id"], PDO::PARAM_INT);
 		$stmt->bindParam(":nombre_prov", $datos["nombre_prov"], PDO::PARAM_STR);
 		$stmt->bindParam(":email_prov", $datos["email_prov"], PDO::PARAM_STR);
 		$stmt->bindParam(":telefono", $datos["telefono"], PDO::PARAM_STR);
 		$stmt->bindParam(":pag_web", $datos["pag_web"], PDO::PARAM_STR);
+		$stmt->bindParam(":comentario", $datos["comentario"], PDO::PARAM_STR);
 
 		if($stmt->execute()){
 
