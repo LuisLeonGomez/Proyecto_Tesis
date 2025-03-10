@@ -1,4 +1,8 @@
 Ingreso al sistema:
+http://localhost/Proyecto_Tesis/ingreso
 
 Usuario: admin
-Contraseña: admin
+Contraseï¿½a: admin
+
+Usuario: Lucygomez
+Contraseï¿½a: #EstÃ¡ encriptado, no me acuerdo xd
