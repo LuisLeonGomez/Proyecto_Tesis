@@ -66,7 +66,8 @@ class ControladorCategorias{
 	}
 
 	/*=============================================
-	MOSTRAR CATEGORIAS
+	MOSTRAR CATEGORIAS 
+	Aqui se hace la funcion para la categoria
 	=============================================*/
 
 	static public function ctrMostrarCategorias($item, $valor){
